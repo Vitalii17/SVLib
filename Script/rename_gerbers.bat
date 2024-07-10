@@ -1,0 +1,22 @@
+set prj_name=!!!!!!!!
+set ver=v1.0
+
+ren "*.gbl" "%prj_name% %ver%-Bot.gbr"
+ren "*.gtl" "%prj_name% %ver%-Top.gbr"
+ren "*.g1"  "%prj_name% %ver%-TopInner.gbr"
+ren "*.g2"  "%prj_name% %ver%-BotInner.gbr"
+ren "*.gts" "%prj_name% %ver%-TopMask.gbr"
+ren "*.gbs" "%prj_name% %ver%-BotMask.gbr"
+ren "*.gm11" "%prj_name% %ver%-Outline-Board.gbr"
+ren "*.gm12" "%prj_name% %ver%-Mill-Board.gbr"
+ren "*.gm13" "%prj_name% %ver%-Outline-Panel.gbr"
+ren "*.gm14" "%prj_name% %ver%-Mill-Panel.gbr"
+ren "*.gm15" "%prj_name% %ver%-V-Cut.gbr"
+ren "*.gm21" "%prj_name% %ver%-Stencil-FidTop.gbr"
+ren "*.gm22" "%prj_name% %ver%-Stencil-FidBot.gbr"
+ren "*.gto" "%prj_name% %ver%-TopSilk.gbr"
+ren "*.gbo" "%prj_name% %ver%-BotSilk.gbr"
+ren "*.gtp" "%prj_name% %ver%-TopPast.gbr"
+ren "*.gbp" "%prj_name% %ver%-BotPast.gbr"
+ren "*-Plated.txt" "%prj_name% %ver%-Plated.drl"
+ren "*NonPlated.txt" "%prj_name% %ver%-NonPlated.drl"
