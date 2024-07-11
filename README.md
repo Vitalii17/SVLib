@@ -1,27 +1,37 @@
 # SVLib
 Altium Library created and maintained by Vitalii Shunkov
 
-## Template project structure
-    Project name  
-    |-- Board  
-    |   |-- Project Name + Version  
-    |       |-- Source  
-    |       |-- Documentation  
-    |           |-- Scheematic  
-    |           |-- Assembly  
-    |           |-- BOM  
-    |       |-- Gerbers and Drill  
-    |           |-- Single  
-    |           |-- Panel  
-    |       |-- Pick and Place  
-    |       |-- 3D Model  
+## Project structure
+    |-- Boards  
+    |   |-- Project Name  
+    |       |-- Project File  
+    |       |-- Schematic  
+    |       |-- PCB  
+    |       |-- Local Libraries  
+    |       |-- Draftsman Documents  
     |  
-    |-- Case  
-    |   |-- Drawings  
-    |   |-- STL  
-    |   |-- 3D Design  
+    |-- Mechanical
+    |   |-- Project Name  
     |  
     |-- Calculations  
+    
+## Documentation structure
+    |-- Boards
+    |    |-- Project Name
+    |        |-- Single Fabrication
+    |            |-- Single Gerbers
+    |            |-- Single Stencil
+    |            |-- Layout
+    |        |-- Panel Fabrication
+    |            |-- Panel Gerbers
+    |            |-- Panel Stencil
+    |        |-- Assembly
+    |            |-- Assembly Drawings
+    |            |-- BOM
+    |            |-- Pick and Place
+    |            |-- Assembly Drawings
+    |            |-- 3D Model
+    |            |-- Schematic 
     |  
     |-- .git  
 
