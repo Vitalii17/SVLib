@@ -2,3 +2,17 @@ History/
 __Previews/
 debug.log
 *.laccdb
+*.PrjPcbStructure
+Status Report.Txt
+*.DRR
+*.EXTREP
+*.apr
+*.LDP
+*.REP
+*.RUL
+*.APR_LIB
+Project Logs for *
+Project Outputs for *
+*.log
+*.raw
+
